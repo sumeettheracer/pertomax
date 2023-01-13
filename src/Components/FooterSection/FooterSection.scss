@@ -1,0 +1,93 @@
+$primary: #1D0453;
+
+.footersection {
+    color: white;
+    padding: 70px 50px 10px 50px;
+    margin-top: 50px;
+    height: 55vh;
+    width: 100%;
+    background-image: linear-gradient(to top right, $primary, #3b0057);
+
+    h4 {
+        font-size: x-large;
+    }
+
+    .footercontainer {
+        padding: 10px 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .first {
+            width: 400px;
+
+            .first-inside {
+                margin-top: 10px;
+
+                .first-anchor {
+                    padding: 0 3px 0 0;
+                }
+
+                .anchor-inside {
+                    padding: 0 3px
+                }
+
+                .last-anchor {
+                    padding: 0 0 0 3px;
+                }
+            }
+
+            .text-area-margin {
+                margin-top: 20px;
+
+                .adjust {
+                    margin-left: -40px;
+                    margin-top: 5px;
+                }
+
+                .text-inside-first {
+                    font-size: 1rem;
+                    line-height: 1.5;
+
+                    span {
+                        padding: 10px 10px 10px 10px;
+                    }
+                }
+            }
+
+        }
+
+        .upper-second {
+            width: 700px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            ul {
+                list-style: none;
+
+                li {
+                    margin: 10px 0;
+                }
+            }
+            .newsletter{
+                width:300px;
+                p{
+                    margin-top: 10px;
+                }
+                input{
+                    margin-top: 10px;
+                    width:16rem;
+                    height:2rem;
+                    border-radius: 5px;
+                    border:none;
+                }
+            }
+        }
+    }
+    .last{
+        position: relative;
+        bottom: -15px;
+        text-align: center;
+        font-size: smaller;
+    }
+}

@@ -1,0 +1,58 @@
+$primary: #1D0453;
+$secondary: rgba(0, 0, 0, 0.74);
+
+.second-section {
+    display: flex;
+    position: relative;
+    top: 60px;
+    width: 100%;
+    height: 100vh;
+
+    .content2 {
+        margin: 0 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        .left2{
+            img{
+                width:600px;
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            }
+        }
+        .right2{
+            max-width: 500px;
+            padding-top: 3rem;
+            h1 {
+                color: $primary;
+                font-size: 3.5rem;
+                line-height: 5.1rem;
+                text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+            }
+            p{
+                margin-top:2rem;
+                color:$secondary;
+                font-size: larger;
+                font-weight: 500;
+                line-height: 2rem;
+            }
+
+            button {
+                margin-top: 3rem;
+                padding: 0.5rem;
+                background-color: $primary;
+                color: white;
+                border-radius: 2rem;
+                text-align: center;
+                font-size: large;
+                font-weight: 300;
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+                &:hover{
+                    background-color: lighten($primary,30%);
+                    transition: all 0.3s ease;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,73 @@
+$primary: #1D0453;
+$secondary: rgba(0, 0, 0, 0.74);
+
+.mailsection {
+    margin-top: 200px;
+    width: 100%;
+    padding-right: 5rem;
+    height: 100vh;
+
+    .container3 {
+        padding-right: 10px;
+        display: flex;
+        gap: 150px;
+
+        .colouredimage {
+            img {
+                width: 600px;
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            }
+        }
+
+        .mail-detail {
+           
+            h1 {
+                color: $primary;
+                font-size: 3.5rem;
+                line-height: 5.1rem;
+                text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+            }
+            .inside{
+                margin-top:20px;
+                display: flex;
+                flex-direction: column;
+                gap:10px;
+                input{
+                    width:30rem;
+                    height:3rem;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                }
+                textarea{
+                    width:30rem;
+                    height:20rem;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                }
+            }
+            
+            button {
+                margin-top: 3rem;
+                padding: 0.6rem;
+                background-color: $primary;
+                color: white;
+                border-radius: 2rem;
+                text-align: center;
+                font-size: large;
+                font-weight: 300;
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+                &:hover{
+                    background-color: lighten($primary,30%);
+                    transition: all 0.3s ease;
+                }
+            }
+        }
+    }
+
+}
+::placeholder{
+    padding-left: 15px;
+    font-size: 1rem;
+}
